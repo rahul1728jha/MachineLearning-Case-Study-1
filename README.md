@@ -12,7 +12,6 @@ We get our data from : http://www.nyc.gov/html/tlc/html/about/trip_record_data.s
 <h2> Mapping to ML problem: Performance Metrices </h2>
 <p>The problem here is a special type of regression : Time-series prediction/forecasting. Taking into consideration the problem type and the business constraints, we boil down to the following performance metrices:
 <ol><b>MAPE</b>(Mean Absolute Percentage Error)</ol>
-<ol><b>MSE</b>(Mean Squared Error)</ol>
 </p>
 <h2>Data Cleaning:</h2>
 <p>Now we perform univariate analysis and remove outliers or illegitimate values(which may be caused due to some error)<br><br>
